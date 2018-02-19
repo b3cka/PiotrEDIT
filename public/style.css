@@ -1,0 +1,33 @@
+body{
+  background-color: red;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@font-face {
+    font-family: kremlin;
+    src: url('FONT/kremlin.ttf');
+}
+
+#lastMsg{
+  text-align: center;
+  font-size: 15rem;
+  color: yellow;
+  font-family: kremlin;
+}
+#currentBeat{
+  text-align: center;
+  font-size: 15rem;
+  color: white;
+  font-family: kremlin;
+}
+
+#bpmThings{
+  display: none;
+}

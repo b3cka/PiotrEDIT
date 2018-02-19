@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Piotr</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.1.1.min.js"></script>
+
+  </head>
+  <body>
+
+
+    <span id="lastMsg">(nothing)</span>
+    <span id="currentBeat">(nothink)</span>
+
+    <div id="bpmThings"><p>Use any key - Start tapping to measure BPM<table border=0><tr><form name="TAP_DISPLAY"><td align=center><table border=0 cellpadding=3 cellspacing=0 bgcolor="#666666"><tr><td><table border=0 cellpadding=4 cellspacing=0 bgcolor="#CCCCCC"><tr><td> </td><td align=right><font color="#000000"><tt>Average BPM</tt><input readonly name="T_AVG" size=12></td><td> </td></tr><tr><td> </td><td align=right><font color="#000000"><tt>Nearest Whole</tt><input readonly name="T_WHOLE" size=12></td><td> </td></tr><tr><td> </td><td align=right><font color="#000000"><tt>Timing Taps</tt><input readonly name="T_TAP" size=12></td><td> </td></tr></table></td></tr></table></td></tr><tr><td align=center><select name="T_WAIT"><option value="2" SELECTED>2</option></select><input type="button" name="T_RESET" value="RESET" onclick="ResetCount()"></form></tr><tr><td>&nbsp;</td></tr><tr><td>Touchscreen click here &gt; <input name="T_FOCUS" size=2 maxLength=1> &lt; to activate keyboard</td></tr></table>
+    </div>
+
+
+
+
+
+    <script type="module" src="reconnecting-websocket.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
